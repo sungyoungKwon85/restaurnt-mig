@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+#      uri: "mongodb://172.21.115.89:27017"
+#      uri: "mongodb://bob:bob@127.0.0.1:27017"
+      uri: "mongodb://bob:@todo@ec2-13-124-98-172.ap-northeast-2.compute.amazonaws.com:27017"
+      database: "test"
+spring.jackson.default-property-inclusion: NON_NULL
+server:
+  port: 8086
